@@ -1,0 +1,15 @@
+DROP TABLE
+    Contents,
+    Courses,
+    Employers,
+    graduates_at,
+    has_URL,
+    Majors,
+    Members,
+    owns_project,
+    Personal_URLs,
+    Photos,
+    Projects,
+    Schools,
+    takes_course,
+    works_at;
