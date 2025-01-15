@@ -3,8 +3,10 @@ CREATE TABLE Members (
     mid INTEGER AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(255) NOT NULL,
+    email VARCHAR(255),
+    username VARCHAR(100) NOT NULL,
     password VARCHAR(30) NOT NULL CHECK (CHAR_LENGTH(password) >= 8),
+    role ENUM('admin', 'user'),
     pid BIGINT
 );
 
