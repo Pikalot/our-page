@@ -3,7 +3,7 @@ DROP TABLE
     Courses,
     Employers,
     graduates_at,
-    has_URL,
+    -- has_URL,
     Majors,
     Members,
     owns_project,
